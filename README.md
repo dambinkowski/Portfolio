@@ -1,10 +1,8 @@
-# Portfolio
+# My Projects
 
-My repository for some of my portfolio projects.
+Small collections of my projects. 
 
 ---
-
-## Year 1
 
 ### Lama Game (p5.js)
 - **Code:** [github.com/dambinkowski/LamaGameP5](https://github.com/dambinkowski/LamaGameP5)
@@ -16,3 +14,5 @@ My repository for some of my portfolio projects.
 
 ### Simple Blog (Express + SQL)
 - **Code:** [github.com/dambinkowski/simple-blog](https://github.com/dambinkowski/simple-blog)
+
+- 
