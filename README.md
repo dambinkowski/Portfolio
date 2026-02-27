@@ -1,31 +1,18 @@
 # Portfolio
 
-A small collection of my projects and coursework.
+My repository for some of my portfolio projects.
 
 ---
 
-## Year 1 Projects
+## Year 1
 
 ### Lama Game (p5.js)
-A small game project built with p5.js.
-
-- **Code:** https://github.com/dambinkowski/LamaGameP5  
-- **Live demo:** https://dambinkowski.github.io/LamaGameP5/
-
----
+- **Code:** [github.com/dambinkowski/LamaGameP5](https://github.com/dambinkowski/LamaGameP5)
+- **App:**  [dambinkowski.github.io/LamaGameP5](https://dambinkowski.github.io/LamaGameP5/)
 
 ### Draw to Code (p5.js)
-An interactive p5.js project exploring drawing and code generation.
-
-- **Code:** https://github.com/dambinkowski/draw-to-codeP5  
-- **Live demo:** https://dambinkowski.github.io/draw-to-codeP5/
-
----
+- **Code:** [github.com/dambinkowski/draw-to-codeP5](https://github.com/dambinkowski/draw-to-codeP5)
+- **App:**  [dambinkowski.github.io/draw-to-codeP5](https://dambinkowski.github.io/draw-to-codeP5/)
 
 ### Simple Blog (Express + SQL)
-A simple blog app using Express and a SQL database.
-
-- **Code:** https://github.com/dambinkowski/simple-blog  
-- **Live demo:** *(add link if/when deployed)*
-
-
+- **Code:** [github.com/dambinkowski/simple-blog](https://github.com/dambinkowski/simple-blog)
