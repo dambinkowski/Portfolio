@@ -43,25 +43,43 @@ a {
   padding: 28px 0 56px;
 }
 
+.site-shell > main {
+  margin-top: -34px;
+  position: relative;
+  z-index: 3;
+}
+
 .hero,
 .page-hero {
   padding: 36px 0 24px;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
 }
 
 .hero-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(280px, 0.92fr);
   gap: 28px;
-  align-items: center;
+  align-items: start;
+  position: relative;
 }
 
 .hero-content {
   min-width: 0;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-photo {
   width: 100%;
   min-height: 440px;
+  margin-top: -18px;
+  margin-bottom: -18px;
+  position: relative;
+  z-index: 0;
   border-radius: var(--radius-lg);
   background:
     linear-gradient(to bottom, #0d1117 0%, rgba(13, 17, 23, 0) 7%),
@@ -549,6 +567,10 @@ a.pill:focus-visible {
   .hero-photo {
     min-height: 340px;
     background-position: center 12%;
+  }
+
+  .site-shell > main {
+    margin-top: -12px;
   }
 
   .two-column {
