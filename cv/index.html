@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta
+		name="description"
+		content="Resume and CV of Damian Binkowski, Junior Software Developer."
+	/>
+	<title>Damian Binkowski | CV</title>
+	<link rel="stylesheet" href="../styles.css" />
+	<style>
+		.cv-container {
+			max-width: 900px;
+			margin: 0 auto;
+			padding: 40px 0;
+		}
+
+		.cv-header {
+			text-align: left;
+			margin-bottom: 32px;
+		}
+
+		.cv-header h1 {
+			margin: 0 0 4px 0;
+			font-size: 24px;
+			color: var(--heading);
+		}
+
+		.cv-header p {
+			margin: 0;
+			color: var(--muted);
+			font-size: 14px;
+		}
+
+		.cv-section {
+			margin-bottom: 24px;
+		}
+
+		.cv-section-title {
+			font-size: 13px;
+			font-weight: 700;
+			letter-spacing: 0.1em;
+			text-transform: uppercase;
+			color: var(--accent);
+			margin-bottom: 12px;
+		}
+
+		.cv-item {
+			margin-bottom: 14px;
+			line-height: 1.6;
+		}
+
+		.cv-item-header {
+			display: flex;
+			justify-content: space-between;
+			margin-bottom: 4px;
+			gap: 20px;
+		}
+
+		.cv-item-title {
+			font-weight: 600;
+			color: var(--heading);
+			margin: 0;
+			flex: 1;
+		}
+
+		.cv-item-date {
+			color: var(--muted);
+			font-size: 13px;
+			white-space: nowrap;
+			text-align: right;
+		}
+
+		.cv-item-desc {
+			color: var(--muted);
+			margin: 0;
+			font-size: 14px;
+		}
+
+		.cv-item-desc ul {
+			margin: 4px 0 0 20px;
+			padding: 0;
+			color: var(--muted);
+			font-size: 14px;
+		}
+
+		.cv-item-desc li {
+			margin: 2px 0;
+		}
+
+		.cv-skills {
+			color: var(--muted);
+			font-size: 14px;
+			line-height: 1.6;
+		}
+
+		.cv-footer-nav {
+			display: flex;
+			gap: 20px;
+			margin-bottom: 24px;
+			font-size: 14px;
+		}
+
+		.cv-footer-nav a {
+			color: var(--accent);
+			text-decoration: none;
+		}
+
+		.cv-footer-nav a:hover {
+			text-decoration: underline;
+		}
+
+		.cv-about {
+			color: var(--muted);
+			font-size: 14px;
+			line-height: 1.6;
+			margin-bottom: 24px;
+		}
+
+		@media (max-width: 860px) {
+			.cv-container {
+				padding: 24px 22px;
+			}
+
+			.cv-item-header {
+				flex-direction: column;
+				gap: 4px;
+			}
+
+			.cv-item-date {
+				text-align: left;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="site-shell">
+		<div class="cv-footer-nav">
+			<a href="../index.html">← Back to portfolio</a>
+			<a href="./CV.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+		</div>
+
+		<div class="cv-container">
+			<div class="cv-header">
+				<h1>Damian Binkowski</h1>
+				<p>Junior Software Developer</p>
+			</div>
+
+			<div class="cv-about">
+				First Class Honors graduate from University of London with a unique background balancing academic excellence with a competitive figure skating career that transitioned to working as a Disney On Ice Performer. Now leveraging discipline, dedication, and performance excellence to pursue a career in computer science.
+			</div>
+
+			<div class="cv-section">
+				<div class="cv-section-title">Education</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">University of London</h3>
+						<div class="cv-item-date">2021-2025</div>
+					</div>
+					<p class="cv-item-desc">Bachelor of Science in Computer Science, graduated with First Class Honours.</p>
+				</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">University of Technology in Warsaw</h3>
+						<div class="cv-item-date">2015-2019</div>
+					</div>
+					<p class="cv-item-desc">Completed multiple engineering courses from Automatics and Robotics major.</p>
+				</div>
+			</div>
+
+			<div class="cv-section">
+				<div class="cv-section-title">Achievements</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">Competitive Figure Skater, representing Poland</h3>
+						<div class="cv-item-date">2007-2023</div>
+					</div>
+					<div class="cv-item-desc">
+						<ul>
+							<li>Polish Junior National Champion (2014)</li>
+							<li>Junior World Championships (23rd in 2014, 26th in 2016)</li>
+							<li>Senior ISU Challenger Lombardia Trophy (10th in 2022)</li>
+						</ul>
+					</div>
+				</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">Google IT Automation with Python</h3>
+						<div class="cv-item-date">2021</div>
+					</div>
+					<p class="cv-item-desc">Certified course.</p>
+				</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">Google IT Support</h3>
+						<div class="cv-item-date">2021</div>
+					</div>
+					<p class="cv-item-desc">Certified course.</p>
+				</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">IBM AI Engineering</h3>
+						<div class="cv-item-date">2025</div>
+					</div>
+					<p class="cv-item-desc">Certified course.</p>
+				</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">IBM Data Science</h3>
+						<div class="cv-item-date">2025</div>
+					</div>
+					<p class="cv-item-desc">Certified course.</p>
+				</div>
+			</div>
+
+			<div class="cv-section">
+				<div class="cv-section-title">Experience</div>
+				<div class="cv-item">
+					<div class="cv-item-header">
+						<h3 class="cv-item-title">Disney On Ice "Into The Magic"</h3>
+						<div class="cv-item-date">2023-Present</div>
+					</div>
+					<p class="cv-item-desc">Performer under specialty contract for characters of Beast, Maui, Bell Prince.</p>
+				</div>
+			</div>
+
+			<div class="cv-section">
+				<div class="cv-section-title">Skills</div>
+				<p class="cv-skills">
+					I have been working towards full-stack development, while keeping passion for IoT.
+				</p>
+				<p class="cv-skills">
+					<strong>Technologies:</strong> Python, C++, JavaScript, SQL, Linux, Django, React, Express, AI, ML
+				</p>
+			</div>
+
+			<div class="cv-section">
+				<div class="cv-section-title">Portfolio & Contact</div>
+				<p class="cv-skills">
+					Portfolio: <a href="https://dambinkowski.github.io/Portfolio/" target="_blank" rel="noopener noreferrer" style="color: var(--accent);">dambinkowski.github.io/Portfolio</a>
+				</p>
+				<p class="cv-skills">
+					Email: <a href="mailto:dambinkowski@gmail.com" style="color: var(--accent);">dambinkowski@gmail.com</a>
+				</p>
+				<p class="cv-skills" style="margin-top: 20px; font-size: 12px; color: var(--muted);">
+					Updated April 2025
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

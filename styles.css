@@ -131,6 +131,19 @@ a {
 .pill,
 .tag {
   background: var(--surface);
+  text-decoration: none;
+}
+
+a.pill {
+  cursor: pointer;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+a.pill:hover,
+a.pill:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--accent);
 }
 
 .pill-accent,
@@ -445,6 +458,48 @@ a {
   font-size: 0.92rem;
 }
 
+.resume-intro-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 18px;
+}
+
+.resume-list {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.resume-item {
+  padding: 18px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  background: var(--surface-strong);
+}
+
+.resume-item-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.resume-item h3 {
+  margin: 0;
+  font-size: 1.12rem;
+  color: var(--heading);
+}
+
+.resume-item p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.resume-bullets {
+  margin-top: 8px;
+}
+
 @media (max-width: 860px) {
   .site-shell {
     width: min(100% - 20px, 1120px);
@@ -470,5 +525,14 @@ a {
 
   .card-footer {
     align-items: start;
+  }
+
+  .resume-intro-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-item-head {
+    align-items: start;
+    flex-direction: column;
   }
 }
